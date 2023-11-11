@@ -1,0 +1,113 @@
+Performance Measures 
+
+
+**********************************************************
+
+(A) Base-DT Performance Measures 
+
+Hyperparameters: 
+ 	- criterion: Gini impurity 
+	- max_depth: None 
+	- min_samples_split: 2 
+
+
+(B) Confusion Matrix: 
+[[32  1  0]
+ [ 0 21  0]
+ [ 0  0 30]]
+
+(C - D) Classification Report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98        33
+           1       0.95      1.00      0.98        21
+           2       1.00      1.00      1.00        30
+
+    accuracy                           0.99        84
+   macro avg       0.98      0.99      0.99        84
+weighted avg       0.99      0.99      0.99        84
+
+(C - D) Accuracy Score: 0.9880952380952381
+
+
+**********************************************************
+
+(A) Top-DT Performance Measures 
+
+{"criterion": "entropy", "max_depth": 4, "min_samples_split": 6}Hyperparameters: None
+
+
+(B) Confusion Matrix: 
+[[29  4  0]
+ [ 2 19  0]
+ [ 0  0 30]]
+
+(C - D) Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.88      0.91        33
+           1       0.83      0.90      0.86        21
+           2       1.00      1.00      1.00        30
+
+    accuracy                           0.93        84
+   macro avg       0.92      0.93      0.92        84
+weighted avg       0.93      0.93      0.93        84
+
+(C - D) Accuracy Score: 0.9285714285714286
+
+
+**********************************************************
+
+(A) Base-MLP Performance Measures 
+
+Hyperparameters: 
+ 	- hidden_layer_sizes: (100, 100) 
+	- activation: logistic 
+	- solver: sgd 
+	- max_iter = 200 
+	- shuffle = true 
+
+
+(B) Confusion Matrix: 
+[[33  0  0]
+ [21  0  0]
+ [30  0  0]]
+
+(C - D) Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.39      1.00      0.56        33
+           1       0.00      0.00      0.00        21
+           2       0.00      0.00      0.00        30
+
+    accuracy                           0.39        84
+   macro avg       0.13      0.33      0.19        84
+weighted avg       0.15      0.39      0.22        84
+
+(C - D) Accuracy Score: 0.39285714285714285
+
+
+**********************************************************
+
+(A) Top-MLP Performance Measures 
+
+{"activation": "logistic", "hidden_layer_sizes": [100, 150], "max_iter": 800, "solver": "adam"}Hyperparameters: None
+
+
+(B) Confusion Matrix: 
+[[31  0  2]
+ [21  0  0]
+ [ 3  0 27]]
+
+(C - D) Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.56      0.94      0.70        33
+           1       0.00      0.00      0.00        21
+           2       0.93      0.90      0.92        30
+
+    accuracy                           0.69        84
+   macro avg       0.50      0.61      0.54        84
+weighted avg       0.55      0.69      0.60        84
+
+(C - D) Accuracy Score: 0.6904761904761905
