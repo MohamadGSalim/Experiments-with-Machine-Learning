@@ -16,22 +16,22 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[32  1  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 1 16  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.97      0.98        33
-           1       0.95      1.00      0.98        21
-           2       1.00      1.00      1.00        30
+           0       0.93      1.00      0.97        43
+           1       1.00      0.94      0.97        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           0.99        84
-   macro avg       0.98      0.99      0.99        84
-weighted avg       0.99      0.99      0.99        84
+    accuracy                           0.96        84
+   macro avg       0.98      0.95      0.96        84
+weighted avg       0.97      0.96      0.96        84
 
-(C - D) Accuracy Score: 0.9880952380952381
+(C - D) Accuracy Score: 0.9642857142857143
 
 **********************************************************
 
@@ -46,22 +46,22 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[32  1  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 0 17  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.97      0.98        33
-           1       0.95      1.00      0.98        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.94      1.00      0.97        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           0.99        84
-   macro avg       0.98      0.99      0.99        84
-weighted avg       0.99      0.99      0.99        84
+    accuracy                           0.96        84
+   macro avg       0.97      0.96      0.96        84
+weighted avg       0.97      0.96      0.96        84
 
-(C - D) Accuracy Score: 0.9880952380952381
+(C - D) Accuracy Score: 0.9642857142857143
 
 **********************************************************
 
@@ -76,19 +76,19 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[32  1  0]
- [ 1 20  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 0 17  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       0.97      0.97      0.97        33
-           1       0.95      0.95      0.95        21
-           2       1.00      1.00      1.00        30
+           0       0.96      1.00      0.98        43
+           1       1.00      1.00      1.00        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.98        84
-   macro avg       0.97      0.97      0.97        84
+   macro avg       0.99      0.97      0.98        84
 weighted avg       0.98      0.98      0.98        84
 
 (C - D) Accuracy Score: 0.9761904761904762
@@ -106,22 +106,22 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[33  0  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 0 17  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        33
-           1       1.00      1.00      1.00        21
-           2       1.00      1.00      1.00        30
+           0       0.96      1.00      0.98        43
+           1       1.00      1.00      1.00        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           1.00        84
-   macro avg       1.00      1.00      1.00        84
-weighted avg       1.00      1.00      1.00        84
+    accuracy                           0.98        84
+   macro avg       0.99      0.97      0.98        84
+weighted avg       0.98      0.98      0.98        84
 
-(C - D) Accuracy Score: 1.0
+(C - D) Accuracy Score: 0.9761904761904762
 
 **********************************************************
 
@@ -136,22 +136,22 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[33  0  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 0 17  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        33
-           1       1.00      1.00      1.00        21
-           2       1.00      1.00      1.00        30
+           0       0.96      1.00      0.98        43
+           1       1.00      1.00      1.00        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           1.00        84
-   macro avg       1.00      1.00      1.00        84
-weighted avg       1.00      1.00      1.00        84
+    accuracy                           0.98        84
+   macro avg       0.99      0.97      0.98        84
+weighted avg       0.98      0.98      0.98        84
 
-(C - D) Accuracy Score: 1.0
+(C - D) Accuracy Score: 0.9761904761904762
 
 
 **********************************************************
@@ -160,26 +160,26 @@ RUN 1
 
 (A) Top-DT Performance Measures 
 
-{"criterion": "entropy", "max_depth": null, "min_samples_split": 6}Hyperparameters: None
+{"criterion": "gini", "max_depth": null, "min_samples_split": 6}Hyperparameters: None
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 2 19  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 0 17  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       0.94      0.88      0.91        33
-           1       0.83      0.90      0.86        21
-           2       1.00      1.00      1.00        30
+           0       0.96      1.00      0.98        43
+           1       1.00      1.00      1.00        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           0.93        84
-   macro avg       0.92      0.93      0.92        84
-weighted avg       0.93      0.93      0.93        84
+    accuracy                           0.98        84
+   macro avg       0.99      0.97      0.98        84
+weighted avg       0.98      0.98      0.98        84
 
-(C - D) Accuracy Score: 0.9285714285714286
+(C - D) Accuracy Score: 0.9761904761904762
 
 
 **********************************************************
@@ -188,26 +188,26 @@ RUN 2
 
 (A) Top-DT Performance Measures 
 
-{"criterion": "gini", "max_depth": null, "min_samples_split": 6}Hyperparameters: None
+{"criterion": "gini", "max_depth": 4, "min_samples_split": 6}Hyperparameters: None
 
 
 (B) Confusion Matrix: 
-[[33  0  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 0 17  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        33
-           1       1.00      1.00      1.00        21
-           2       1.00      1.00      1.00        30
+           0       0.96      1.00      0.98        43
+           1       1.00      1.00      1.00        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           1.00        84
-   macro avg       1.00      1.00      1.00        84
-weighted avg       1.00      1.00      1.00        84
+    accuracy                           0.98        84
+   macro avg       0.99      0.97      0.98        84
+weighted avg       0.98      0.98      0.98        84
 
-(C - D) Accuracy Score: 1.0
+(C - D) Accuracy Score: 0.9761904761904762
 
 
 **********************************************************
@@ -216,26 +216,26 @@ RUN 3
 
 (A) Top-DT Performance Measures 
 
-{"criterion": "entropy", "max_depth": null, "min_samples_split": 6}Hyperparameters: None
+{"criterion": "gini", "max_depth": null, "min_samples_split": 6}Hyperparameters: None
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 1 16  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.93      1.00      0.97        43
+           1       1.00      0.94      0.97        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+    accuracy                           0.96        84
+   macro avg       0.98      0.95      0.96        84
+weighted avg       0.97      0.96      0.96        84
 
-(C - D) Accuracy Score: 0.9523809523809523
+(C - D) Accuracy Score: 0.9642857142857143
 
 
 **********************************************************
@@ -248,22 +248,22 @@ RUN 4
 
 
 (B) Confusion Matrix: 
-[[33  0  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[43  0  0]
+ [ 1 16  0]
+ [ 2  0 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        33
-           1       1.00      1.00      1.00        21
-           2       1.00      1.00      1.00        30
+           0       0.93      1.00      0.97        43
+           1       1.00      0.94      0.97        17
+           2       1.00      0.92      0.96        24
 
-    accuracy                           1.00        84
-   macro avg       1.00      1.00      1.00        84
-weighted avg       1.00      1.00      1.00        84
+    accuracy                           0.96        84
+   macro avg       0.98      0.95      0.96        84
+weighted avg       0.97      0.96      0.96        84
 
-(C - D) Accuracy Score: 1.0
+(C - D) Accuracy Score: 0.9642857142857143
 
 
 **********************************************************
@@ -272,24 +272,24 @@ RUN 5
 
 (A) Top-DT Performance Measures 
 
-{"criterion": "entropy", "max_depth": 4, "min_samples_split": 6}Hyperparameters: None
+{"criterion": "entropy", "max_depth": null, "min_samples_split": 6}Hyperparameters: None
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -309,20 +309,20 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -342,20 +342,20 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -375,20 +375,20 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -408,20 +408,20 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -441,20 +441,20 @@ Hyperparameters:
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -462,6 +462,34 @@ weighted avg       0.96      0.95      0.95        84
 **********************************************************
 
 RUN 1 
+
+(A) Top-MLP Performance Measures 
+
+{"activation": "tanh", "hidden_layer_sizes": [200, 200, 200], "max_iter": 800, "solver": "adam"}Hyperparameters: None
+
+
+(B) Confusion Matrix: 
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
+
+(C - D) Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
+
+    accuracy                           0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
+
+(C - D) Accuracy Score: 0.9523809523809523
+
+
+**********************************************************
+
+RUN 2 
 
 (A) Top-MLP Performance Measures 
 
@@ -469,48 +497,20 @@ RUN 1
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
-
-(C - D) Accuracy Score: 0.9523809523809523
-
-
-**********************************************************
-
-RUN 2 
-
-(A) Top-MLP Performance Measures 
-
-{"activation": "logistic", "hidden_layer_sizes": [100, 150], "max_iter": 800, "solver": "adam"}Hyperparameters: None
-
-
-(B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
-
-(C - D) Classification Report: 
-              precision    recall  f1-score   support
-
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
-
-    accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -521,24 +521,24 @@ RUN 3
 
 (A) Top-MLP Performance Measures 
 
-{"activation": "tanh", "hidden_layer_sizes": [200, 200, 200], "max_iter": 800, "solver": "adam"}Hyperparameters: None
+{"activation": "logistic", "hidden_layer_sizes": [200, 200, 200], "max_iter": 800, "solver": "adam"}Hyperparameters: None
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -553,20 +553,20 @@ RUN 4
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -577,24 +577,24 @@ RUN 5
 
 (A) Top-MLP Performance Measures 
 
-{"activation": "tanh", "hidden_layer_sizes": [200, 200, 200], "max_iter": 800, "solver": "adam"}Hyperparameters: None
+{"activation": "logistic", "hidden_layer_sizes": [200, 200, 200], "max_iter": 800, "solver": "adam"}Hyperparameters: None
 
 
 (B) Confusion Matrix: 
-[[29  4  0]
- [ 0 21  0]
- [ 0  0 30]]
+[[42  1  0]
+ [ 1 16  0]
+ [ 1  1 22]]
 
 (C - D) Classification Report: 
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        33
-           1       0.84      1.00      0.91        21
-           2       1.00      1.00      1.00        30
+           0       0.95      0.98      0.97        43
+           1       0.89      0.94      0.91        17
+           2       1.00      0.92      0.96        24
 
     accuracy                           0.95        84
-   macro avg       0.95      0.96      0.95        84
-weighted avg       0.96      0.95      0.95        84
+   macro avg       0.95      0.94      0.95        84
+weighted avg       0.95      0.95      0.95        84
 
 (C - D) Accuracy Score: 0.9523809523809523
 
@@ -607,33 +607,33 @@ Overall Performance Measure Averages of the 5 Runs
 
 
 *** Base-DT ***
-Base-DT Average Accuracy Score: 0.9904761904761905
-Base-DT Average Accuracy Score Standard Deviation: 0.008908708063747483
-Base-DT Average Accuracy Score Variance: 7.936507936507943e-05
+Base-DT Average Accuracy Score: 0.9714285714285713
+Base-DT Average Accuracy Score Standard Deviation: 0.0058321184351980224
+Base-DT Average Accuracy Score Variance: 3.401360544217663e-05
 
-Base-DT Average F1 Score (Macro): 0.9896531375601143
-Base-DT Average F1 Score (Macro) Standard Deviation: 0.009707300209194282
-Base-DT Average F1 Score (Macro) Variance: 9.423167735142336e-05
+Base-DT Average F1 Score (Macro): 0.9724907863204445
+Base-DT Average F1 Score (Macro) Standard Deviation: 0.006664235524108365
+Base-DT Average F1 Score (Macro) Variance: 4.44120351207879e-05
 
-Base-DT Average F1 Score (Weighted): 0.9904949314251639
-Base-DT Average F1 Score (Weighted) Standard Deviation: 0.008903727510749236
-Base-DT Average F1 Score (Weighted) Variance: 7.927636358567279e-05
+Base-DT Average F1 Score (Weighted): 0.9712326854524557
+Base-DT Average F1 Score (Weighted) Standard Deviation: 0.005769491749044583
+Base-DT Average F1 Score (Weighted) Variance: 3.3287035042293525e-05
 
 
 *** Top-DT ***
 
 
 Top-DT Average Accuracy Score: 0.9666666666666666
-Top-DT Average Accuracy Score Standard Deviation: 0.02857142857142857
-Top-DT Average Accuracy Score Variance: 0.0008163265306122449
+Top-DT Average Accuracy Score Standard Deviation: 0.008908708063747483
+Top-DT Average Accuracy Score Variance: 7.936507936507943e-05
 
-Top-DT Average F1 Score (Macro): 0.9644627374729058
-Top-DT Average F1 Score (Macro) Standard Deviation: 0.030554085832443713
-Top-DT Average F1 Score (Macro) Variance: 0.0009335521610563376
+Top-DT Average F1 Score (Macro): 0.9659290209946343
+Top-DT Average F1 Score (Macro) Standard Deviation: 0.011950235596058024
+Top-DT Average F1 Score (Macro) Variance: 0.0001428081308012923
 
-Top-DT Average F1 Score (Weighted): 0.9669818457314074
-Top-DT Average F1 Score (Weighted) Standard Deviation: 0.02832942390495564
-Top-DT Average F1 Score (Weighted) Variance: 0.0008025562587866721
+Top-DT Average F1 Score (Weighted): 0.9665690055439924
+Top-DT Average F1 Score (Weighted) Standard Deviation: 0.008749949349090375
+Top-DT Average F1 Score (Weighted) Variance: 7.656161361164708e-05
 
 
 *** Base-MLP ***
@@ -643,11 +643,11 @@ Base-MLP Average Accuracy Score: 0.9523809523809523
 Base-MLP Average Accuracy Score Standard Deviation: 0.0
 Base-MLP Average Accuracy Score Variance: 0.0
 
-Base-MLP Average F1 Score (Macro): 0.9495091164095373
-Base-MLP Average F1 Score (Macro) Standard Deviation: 1.1102230246251565e-16
-Base-MLP Average F1 Score (Macro) Variance: 1.232595164407831e-32
+Base-MLP Average F1 Score (Macro): 0.9454415649318199
+Base-MLP Average F1 Score (Macro) Standard Deviation: 0.0
+Base-MLP Average F1 Score (Macro) Variance: 0.0
 
-Base-MLP Average F1 Score (Weighted): 0.9529152474454017
+Base-MLP Average F1 Score (Weighted): 0.9525788126344992
 Base-MLP Average F1 Score (Weighted) Standard Deviation: 0.0
 Base-MLP Average F1 Score (Weighted) Variance: 0.0
 
@@ -659,10 +659,10 @@ Top-MLP Average Accuracy Score: 0.9523809523809523
 Top-MLP Average Accuracy Score Standard Deviation: 0.0
 Top-MLP Average Accuracy Score Variance: 0.0
 
-Top-MLP Average F1 Score (Macro): 0.9495091164095373
-Top-MLP Average F1 Score (Macro) Standard Deviation: 1.1102230246251565e-16
-Top-MLP Average F1 Score (Macro) Variance: 1.232595164407831e-32
+Top-MLP Average F1 Score (Macro): 0.9454415649318199
+Top-MLP Average F1 Score (Macro) Standard Deviation: 0.0
+Top-MLP Average F1 Score (Macro) Variance: 0.0
 
-Top-MLP Average F1 Score (Weighted): 0.9529152474454017
+Top-MLP Average F1 Score (Weighted): 0.9525788126344992
 Top-MLP Average F1 Score (Weighted) Standard Deviation: 0.0
 Top-MLP Average F1 Score (Weighted) Variance: 0.0
