@@ -27,6 +27,12 @@ This project involves exploring various machine learning algorithms using the sc
 - Jupyter Notebook
 - Required Python libraries: scikit-learn, pandas, numpy, matplotlib
 
+## Usage
+1. **Load the Datasets**: The notebooks include instructions for loading the Penguin and Abalone datasets.
+2. **Preprocess Data**: Follow the steps to preprocess the data for machine learning algorithms.
+3. **Train Models**: Implement and train Decision Trees and Multi-Layered Perceptrons on the datasets.
+4. **Analyze Results**: Conduct statistical analysis and visualize the results within the notebooks.
+
 ## Instructions to Run the Jupyter Notebooks
 Follow these steps to run both the Penguin and Abalone Jupyter Notebooks:
 
