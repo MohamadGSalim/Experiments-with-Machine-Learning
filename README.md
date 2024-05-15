@@ -1,4 +1,5 @@
 # Experiments with Machine Learning
+![image](https://github.com/MohamadGSalim/Experiments-with-Machine-Learning/assets/65099738/70b0fc1d-8276-4963-95d2-077ccc2d14fc)
 
 ## Overview
 This project involves exploring various machine learning algorithms using the scikit-learn library. It includes experiments with different datasets, model training, testing, and performance analysis.
