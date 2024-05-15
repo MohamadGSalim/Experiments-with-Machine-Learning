@@ -1,19 +1,31 @@
-# COMP472_A1
+# Experiments with Machine Learning
 
-## Team Name
-MVN
+## Overview
+This project involves exploring various machine learning algorithms using the scikit-learn library. It includes experiments with different datasets, model training, testing, and performance analysis.
 
-## Team Members
+## Features
+- **Datasets**: Utilizes Penguin and Abalone datasets for experimentation.
+- **Algorithms**: Implements Decision Trees and Multi-Layered Perceptrons.
+- **Analysis**: Conducts statistical analysis to assess model performance variability.
+- **Documentation**: Provides detailed analysis and presentation in Jupyter Notebook.
 
-|   Name   | ID      | GitHub   | Email  
-| ------------- | ------------- | --------    | -------- |
-| **`Nadine El-Mufti`**         | `40017347`         | ([GitHub/njayem](https://github.com/njayem))   | nadine.el.mufti@gmail.com
-| `Mohamad Salim`           | `40111460`         | ([GitHub/MohamadGSalim](https://github.com/MohamadGSalim))   | mohammedsalim1909@hotmail.com
-| `Victoria Castelli`         | `40117055`         |  ([GitHub/VCastelli](https://github.com/VCastelli))  | victoriacastelli33@gmail.com
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**: scikit-learn, Jupyter Notebook
 
+## Skills Demonstrated
+- Machine Learning Experimentation
+- Data Preprocessing
+- Model Training
+- Performance Evaluation
+- Statistical Analysis
 
-## Presentation
-https://docs.google.com/presentation/d/1-4ZpRGKFFcVmxNgPpovpY97zr-7kyNEas4FOsyjcP1I/edit#slide=id.g29a11c62d25_0_82
+## Installation
+
+### Prerequisites
+- Python 3.x installed on your local machine
+- Jupyter Notebook
+- Required Python libraries: scikit-learn, pandas, numpy, matplotlib
 
 
 ## Instructions to run both (Penguins & Abalone) Jupyter Notebooks
